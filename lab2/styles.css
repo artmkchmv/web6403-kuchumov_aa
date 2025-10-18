@@ -1,0 +1,106 @@
+/* Простые стили для сайта о путешествиях по США */
+
+/* Селектор по тегу */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 20px;
+}
+
+h1 {
+    color: #b22234;
+    text-align: center;
+}
+
+h2 {
+    color: #3c3b6e;
+}
+
+h3 {
+    color: #333;
+}
+
+/* Селектор по классу */
+.nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Селектор по ID */
+#main-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Комбинированный селектор */
+nav a {
+    color: #3c3b6e;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Псевдокласс */
+nav a:hover {
+    color: #b22234;
+    text-decoration: underline;
+}
+
+/* Таблица */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3c3b6e;
+    color: white;
+}
+
+/* Выравнивание в таблице */
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.right-align {
+    text-align: right;
+}
+
+/* Изображения */
+img {
+    max-width: 300px;
+    height: 200px;
+    margin: 10px 0;
+}
+
+/* Форма */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+input, textarea {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e6f3ff;
+    border-top: 2px solid #3c3b6e;
+}
