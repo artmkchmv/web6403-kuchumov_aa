@@ -10,6 +10,9 @@
     --th-color: #ffffff;
     --form-bg-color: #f9f9f9;
     --form-border-color: #ccc;
+    --input-color: #ffffff;
+    --input--bg-color: #b35863;
+    --input-hover-bg-color: #b22234;
     --footer-bg-color: #e6f3ff;
     --footer-border-top-color: #3c3b6e;
 }
@@ -99,6 +102,33 @@ form {
 input, textarea {
     margin: 5px 0;
     padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: var(--input--bg-color);
+    color: var(--input-color);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--input-hover-bg-color);
+    transform: scale(1.1);
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 footer {
