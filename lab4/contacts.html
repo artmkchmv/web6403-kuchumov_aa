@@ -24,11 +24,11 @@
     <p><strong>Адрес:</strong> Нью-Йорк, 5th Avenue, 123</p>
 
     <h3>Форма обратной связи</h3>
-    <form>
-        <p>Ваше имя: <input type="text" name="name"></p>
-        <p>Ваш email: <input type="email" name="email"></p>
+    <form id="contact-form">
+        <p>Ваше имя: <input type="text" name="name" id="name"></p>
+        <p>Ваш email: <input type="email" name="email" id="email"></p>
         <p>Сообщение:</p>
-        <textarea name="message" rows="4" cols="50"></textarea>
+        <textarea name="message" id="message" rows="4" cols="50"></textarea>
         <br><br>
         <input type="submit" value="Отправить">
     </form>
@@ -43,5 +43,7 @@
     <footer>
         <p>© 2024 Путешествия по США</p>
     </footer>
+
+    <script src="contacts.js"></script>
 </body>
 </html>
