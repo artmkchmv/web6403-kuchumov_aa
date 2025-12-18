@@ -25,12 +25,22 @@
 
     <h3>Форма обратной связи</h3>
     <form id="contact-form">
-        <p>Ваше имя: <input type="text" name="name" id="name"></p>
-        <p>Ваш email: <input type="email" name="email" id="email"></p>
-        <p>Сообщение:</p>
+        <p>
+            Ваше имя: <input type="text" name="name" id="name">
+            <span class="hint" id="name-hint"></span>
+        </p>
+        <p>
+            Ваш email: <input type="text" name="email" id="email">
+            <span class="hint" id="email-hint"></span>
+        </p>
+        <p>
+            Сообщение:
+            <span class="hint" id="message-hint"></span>
+        </p>
         <textarea name="message" id="message" rows="4" cols="50"></textarea>
         <br><br>
         <input type="submit" value="Отправить">
+        <div id="form-status"></div>
     </form>
 
     <h3>Часто задаваемые вопросы</h3>

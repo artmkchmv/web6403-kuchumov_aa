@@ -171,3 +171,51 @@ footer {
     color: var(--glry-item-p-color);
     font-size: 15px;
 }
+
+.hint {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    min-height: 16px;
+}
+
+.hint.error {
+    color: #d32f2f;
+}
+
+.hint.success {
+    color: #2e7d32;
+}
+
+.hint.info {
+    color: #1976d2;
+}
+
+input.error, textarea.error {
+    border: 2px solid #ad2626;
+}
+
+input.success, textarea.success {
+    border: 2px solid #3ea844;
+}
+
+#form-status {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#form-status.success {
+    background-color: #d4edda;
+    color: #3ea844;
+    border: 1px solid #c3e6cb;
+    display: block;
+}
+
+#form-status.error {
+    background-color: #f8d7da;
+    color: #ad2626;
+    border: 1px solid #f5c6cb;
+    display: block;
+}
