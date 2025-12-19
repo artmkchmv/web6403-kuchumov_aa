@@ -19,33 +19,43 @@
     <p>В США много знаменитых и интересных мест для посещения.</p>
 
     <h3>Таблица достопримечательностей</h3>
-    <table border="1">
-        <tr>
-            <th class="center-align">Название</th>
-            <th class="left-align">Штат</th>
-            <th class="right-align">Тип</th>
-        </tr>
-        <tr>
-            <td class="center-align">Статуя Свободы</td>
-            <td class="left-align">Нью-Йорк</td>
-            <td class="right-align">Исторический</td>
-        </tr>
-        <tr>
-            <td class="center-align">Гранд-Каньон</td>
-            <td class="left-align">Аризона</td>
-            <td class="right-align">Природный</td>
-        </tr>
-        <tr>
-            <td class="center-align">Белый дом</td>
-            <td class="left-align">Вашингтон</td>
-            <td class="right-align">Политический</td>
-        </tr>
-        <tr>
-            <td class="center-align">Голливуд</td>
-            <td class="left-align">Калифорния</td>
-            <td class="right-align">Развлекательный</td>
-        </tr>
+
+    <div id="loading-message">Загрузка данных...</div>
+    <div id="error-message"></div>
+
+    <table id="attractions-table">
+        <thead>
+            <tr>
+                <th class="center-align">Название</th>
+                <th class="left-align">Штат</th>
+                <th class="right-align">Тип</th>
+            </tr>
+        </thead>
+        <tbody id="attractions-tbody">
+            <tr>
+                <td class="center-align">Статуя Свободы</td>
+                <td class="left-align">Нью-Йорк</td>
+                <td class="right-align">Исторический</td>
+            </tr>
+            <tr>
+                <td class="center-align">Гранд-Каньон</td>
+                <td class="left-align">Аризона</td>
+                <td class="right-align">Природный</td>
+            </tr>
+            <tr>
+                <td class="center-align">Белый дом</td>
+                <td class="left-align">Вашингтон</td>
+                <td class="right-align">Политический</td>
+            </tr>
+            <tr>
+                <td class="center-align">Голливуд</td>
+                <td class="left-align">Калифорния</td>
+                <td class="right-align">Развлекательный</td>
+            </tr>
+        </tbody>
     </table>
+
+    <p id="last-update"></p>
 
     <h3>Описание достопримечательностей</h3>
     
@@ -61,5 +71,7 @@
     <footer>
         <p>© 2024 Путешествия по США</p>
     </footer>
+
+    <script src="attractions.js"></script>
 </body>
 </html>
