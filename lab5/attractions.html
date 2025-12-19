@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Достопримечательности США</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Достопримечательности США</h1>
+    
+    <nav>
+        <a href="index.html">Главная</a> |
+        <a href="attractions.html">Достопримечательности</a> |
+        <a href="gallery.html">Галерея</a> |
+        <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <h2>Самые известные места США</h2>
+    <p>В США много знаменитых и интересных мест для посещения.</p>
+
+    <h3>Таблица достопримечательностей</h3>
+
+    <div id="loading-message">Загрузка данных...</div>
+    <div id="error-message"></div>
+
+    <table id="attractions-table">
+        <thead>
+            <tr>
+                <th class="center-align">Название</th>
+                <th class="left-align">Штат</th>
+                <th class="right-align">Тип</th>
+            </tr>
+        </thead>
+        <tbody id="attractions-tbody">
+            <tr>
+                <td class="center-align">Статуя Свободы</td>
+                <td class="left-align">Нью-Йорк</td>
+                <td class="right-align">Исторический</td>
+            </tr>
+            <tr>
+                <td class="center-align">Гранд-Каньон</td>
+                <td class="left-align">Аризона</td>
+                <td class="right-align">Природный</td>
+            </tr>
+            <tr>
+                <td class="center-align">Белый дом</td>
+                <td class="left-align">Вашингтон</td>
+                <td class="right-align">Политический</td>
+            </tr>
+            <tr>
+                <td class="center-align">Голливуд</td>
+                <td class="left-align">Калифорния</td>
+                <td class="right-align">Развлекательный</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p id="last-update"></p>
+
+    <h3>Описание достопримечательностей</h3>
+    
+    <h4>Статуя Свободы</h4>
+    <p>Символ свободы и демократии. Находится в Нью-Йорке на острове Свободы.</p>
+    
+    <h4>Гранд-Каньон</h4>
+    <p>Один из самых впечатляющих природных памятников мира. Находится в Аризоне.</p>
+    
+    <h4>Белый дом</h4>
+    <p>Официальная резиденция президента США. Расположен в Вашингтоне.</p>
+
+    <footer>
+        <p>© 2024 Путешествия по США</p>
+    </footer>
+
+    <script src="attractions.js"></script>
+</body>
+</html>
